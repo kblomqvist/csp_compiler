@@ -2,9 +2,9 @@
 
 CServer Page (CSP) is a dynamic markup language for creating web pages. The CSP markup is baised on XML and is common to JSP. This CSP compiler compiles the CSP markup language to C++ source code that is then compiled to CGI script by using g++ compiler.
 
-Web pages that are designed with CSP consist of files that we call csp fragments. It's recommend to give `.cspf` suffix for these files.
+Web pages that are designed with CSP consist of files that are called csp fragments. It's recommend to give `.cspf` suffix for these files.
 
-A typical web page that is constructed by CSP:
+A typical web page that is constructed by CSP looks like:
 
 ```html
 <csp:page contentType="text/html;charset=iso-8859-1" />
