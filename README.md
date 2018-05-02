@@ -19,7 +19,7 @@ A typical web page that is constructed by CSP looks like:
         <th>Student id</th>
         <th>Points</th>
     </thead>
-    <csp:foreach var="Student stud" items="csp_course.students">
+    <csp:foreach var="Student stud" items="cpp_course.students">
         <tr>
             <td>${stud.id}</td>
             <td>${stud.points}</td>
