@@ -30,4 +30,4 @@ A typical web page that is constructed by CSP:
 <csp:include file="footer.cspf" />
 ```
 
-A command-line call `csp <sourcefile> [-o <output>]` generates `out.cc` source file and compiles it to `out.csp` file. The `out.csp` is the executable that can be run as a CGI script.
+A command-line call `csp source.cspf [-o <output>]` outputs the `out.cc` C++ source file, which is further compiled to `out.csp`. The `out.csp` is an executable that can be run as a CGI script.
